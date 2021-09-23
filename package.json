@@ -1,0 +1,20 @@
+{
+  "name": "lost-tarot",
+  "version": "1.0.0",
+  "description": "",
+  "source": "src/index.html",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "lostways",
+  "license": "MIT",
+  "devDependencies": {
+    "@parcel/transformer-image": "2.0.0-rc.0",
+    "parcel": "latest"
+  },
+  "dependencies": {
+    "three-js-wrapper": "^0.6.0"
+  }
+}
