@@ -11,6 +11,7 @@
   "author": "lostways",
   "license": "MIT",
   "devDependencies": {
+    "@parcel/resolver-glob": "^2.0.0-nightly.2338",
     "@parcel/transformer-image": "2.0.0-rc.0",
     "parcel": "latest"
   },
