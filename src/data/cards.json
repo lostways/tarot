@@ -1,115 +1,392 @@
-{
-  "trump":
-  [
-    {
-      "title": "The Fool",
-      "number": 0,
-      "suit": "trump"
-    },
-    {
-      "title": "The Magician",
-      "number": 1,
-      "suit": "trump"
-    },
-    {
-      "title": "The High Priestess",
-      "number": 2,
-      "suit": "trump"
-    },
-    {
-      "title": "The Empress",
-      "number": 3,
-      "suit": "trump"
-    },
-    {
-      "title": "The Emperor",
-      "number": 4,
-      "suit": "trump"
-    },
-    {
-      "title": "The Hierophant",
-      "number": 5,
-      "suit": "trump"
-    },
-    {
-      "title": "The Lovers",
-      "number": 6,
-      "suit": "trump"
-    },
-    {
-      "title": "The Chariot",
-      "number": 7,
-      "suit": "trump"
-    },
-    {
-      "title": "Strength",
-      "number": 8,
-      "suit": "trump"
-    },
-    {
-      "title": "The Hermit",
-      "number": 9,
-      "suit": "trump"
-    },
-    {
-      "title": "The Wheel of Fortune",
-      "number": 10,
-      "suit": "trump"
-    },
-    {
-      "title": "Justice",
-      "number": 11,
-      "suit": "trump"
-    },
-    {
-      "title": "The Hanged Man",
-      "number": 12,
-      "suit": "trump"
-    },
-    {
-      "title": "Death",
-      "number": 13,
-      "suit": "trump"
-    },
-    {
-      "title": "Temperance",
-      "number": 14,
-      "suit": "trump"
-    },
-    {
-      "title": "The Devil",
-      "number": 15,
-      "suit": "trump"
-    },
-    {
-      "title": "The Tower",
-      "number": 16,
-      "suit": "trump"
-    },
-    {
-      "title": "The Star",
-      "number": 17,
-      "suit": "trump"
-    },
-    {
-      "title": "The Moon",
-      "number": 18,
-      "suit": "trump"
-    },
-    {
-      "title": "The Sun",
-      "number": 19,
-      "suit": "trump"
-    },
-    {
-      "title": "Judgement",
-      "number": 20,
-      "suit": "trump"
-    },
-    {
-      "title": "The World",
-      "number": 21,
-      "suit": "trump"
-    }
-  ]
-}
+[
+  {
+    "title": "The Fool",
+    "number": 0,
+    "suit": "trump"
+  },
+  {
+    "title": "The Magician",
+    "number": 1,
+    "suit": "trump"
+  },
+  {
+    "title": "The High Priestess",
+    "number": 2,
+    "suit": "trump"
+  },
+  {
+    "title": "The Empress",
+    "number": 3,
+    "suit": "trump"
+  },
+  {
+    "title": "The Emperor",
+    "number": 4,
+    "suit": "trump"
+  },
+  {
+    "title": "The Hierophant",
+    "number": 5,
+    "suit": "trump"
+  },
+  {
+    "title": "The Lovers",
+    "number": 6,
+    "suit": "trump"
+  },
+  {
+    "title": "The Chariot",
+    "number": 7,
+    "suit": "trump"
+  },
+  {
+    "title": "Strength",
+    "number": 8,
+    "suit": "trump"
+  },
+  {
+    "title": "The Hermit",
+    "number": 9,
+    "suit": "trump"
+  },
+  {
+    "title": "The Wheel of Fortune",
+    "number": 10,
+    "suit": "trump"
+  },
+  {
+    "title": "Justice",
+    "number": 11,
+    "suit": "trump"
+  },
+  {
+    "title": "The Hanged Man",
+    "number": 12,
+    "suit": "trump"
+  },
+  {
+    "title": "Death",
+    "number": 13,
+    "suit": "trump"
+  },
+  {
+    "title": "Temperance",
+    "number": 14,
+    "suit": "trump"
+  },
+  {
+    "title": "The Devil",
+    "number": 15,
+    "suit": "trump"
+  },
+  {
+    "title": "The Tower",
+    "number": 16,
+    "suit": "trump"
+  },
+  {
+    "title": "The Star",
+    "number": 17,
+    "suit": "trump"
+  },
+  {
+    "title": "The Moon",
+    "number": 18,
+    "suit": "trump"
+  },
+  {
+    "title": "The Sun",
+    "number": 19,
+    "suit": "trump"
+  },
+  {
+    "title": "Judgement",
+    "number": 20,
+    "suit": "trump"
+  },
+  {
+    "title": "The World",
+    "number": 21,
+    "suit": "trump"
+  },
+  {
+    "title": "The Root of The Powers of Fire",
+    "number": 1,
+    "suit": "wands"
+  },
+  {
+    "title": "Dominion",
+    "number": 2,
+    "suit": "wands"
+  },
+  {
+    "title": "Virtue/Established Strength",
+    "number": 3,
+    "suit": "wands"
+  },
+  {
+    "title": "Completion/Perfected Work",
+    "number": 4,
+    "suit": "wands"
+  },
+  {
+    "title": "Strife",
+    "number": 5,
+    "suit": "wands"
+  },
+  {
+    "title": "Victory",
+    "number": 6,
+    "suit": "wands"
+  },
+  {
+    "title": "Valor",
+    "number": 7,
+    "suit": "wands"
+  },
+  {
+    "title": "Swiftness",
+    "number": 8,
+    "suit": "wands"
+  },
+  {
+    "title": "Strength/Great Strength",
+    "number": 9,
+    "suit": "wands"
+  },
+  {
+    "title": "Oppression",
+    "number": 10,
+    "suit": "wands"
+  },
+  {
+    "title": "Princess of the Shining Flame",
+    "number": 11,
+    "suit": "wands"
+  },
+  {
+    "title": "Prince of the Chariot of Fire",
+    "number": 12,
+    "suit": "wands"
+  },
+  {
+    "title": "Queen of the Thrones of Flame",
+    "number": 13,
+    "suit": "wands"
+  },
+  {
+    "title": "Lord of the Flame and the Lightning",
+    "number": 14,
+    "suit": "wands"
+  },
+  {
+    "title": "The Root of The Powers of Waters",
+    "number": 1,
+    "suit": "cups"
+  },
+  {
+    "title": "Love",
+    "number": 2,
+    "suit": "cups"
+  },
+  {
+    "title": "Abundance",
+    "number": 3,
+    "suit": "cups"
+  },
+  {
+    "title": "Luxury/Blended Pleasure",
+    "number": 4,
+    "suit": "cups"
+  },
+  {
+    "title": "Disappointment/Loss in Pleasure",
+    "number": 5,
+    "suit": "cups"
+  },
+  {
+    "title": "Pleasure",
+    "number": 6,
+    "suit": "cups"
+  },
+  {
+    "title": "Debauch/Illusionary Success",
+    "number": 7,
+    "suit": "cups"
+  },
+  {
+    "title": "Indolence/Abandoned Success",
+    "number": 8,
+    "suit": "cups"
+  },
+  {
+    "title": "Happiness/Material Happiness",
+    "number": 9,
+    "suit": "cups"
+  },
+  {
+    "title": "Satiety/Perpetual Success",
+    "number": 10,
+    "suit": "cups"
+  },
+  {
+    "title": "Princess of the Waters",
+    "number": 11,
+    "suit": "cups"
+  },
+  {
+    "title": "Prince of the Chariot of Waters",
+    "number": 12,
+    "suit": "cups"
+  },
+  {
+    "title": "Queen of the Thrones of Waters",
+    "number": 13,
+    "suit": "cups"
+  },
+  {
+    "title": "Lord of the Waves and the Waters",
+    "number": 14,
+    "suit": "cups"
+  },
+  {
+    "title": "The Root of The Powers of Air",
+    "number": 1,
+    "suit": "swords"
+  },
+  {
+    "title": "Peace/Peace Restored",
+    "number": 2,
+    "suit": "swords"
+  },
+  {
+    "title": "Sorrow",
+    "number": 3,
+    "suit": "swords"
+  },
+  {
+    "title": "Truce/Rest from Strife",
+    "number": 4,
+    "suit": "swords"
+  },
+  {
+    "title": "Defeat",
+    "number": 5,
+    "suit": "swords"
+  },
+  {
+    "title": "Science/Earned Success",
+    "number": 6,
+    "suit": "swords"
+  },
+  {
+    "title": "Futility/Unstable Effort",
+    "number": 7,
+    "suit": "swords"
+  },
+  {
+    "title": "Interference/Shortened Force",
+    "number": 8,
+    "suit": "swords"
+  },
+  {
+    "title": "Cruelty/Despair and Cruelty",
+    "number": 9,
+    "suit": "swords"
+  },
+  {
+    "title": "Ruin",
+    "number": 10,
+    "suit": "swords"
+  },
+  {
+    "title": "Princess of the Rushing Winds",
+    "number": 11,
+    "suit": "swords"
+  },
+  {
+    "title": "Prince of the Chariot the Winds",
+    "number": 12,
+    "suit": "swords"
+  },
+  {
+    "title": "Queen of the Thrones of Air",
+    "number": 13,
+    "suit": "swords"
+  },
+  {
+    "title": "Lord of the Winds and the Breezes",
+    "number": 14,
+    "suit": "swords"
+  },
+  {
+    "title": "The Root of The Powers of Earth",
+    "number": 1,
+    "suit": "pentacles"
+  },
+  {
+    "title": "Change/Harmonious Change",
+    "number": 2,
+    "suit": "pentacles"
+  },
+  {
+    "title": "Work/Material Works",
+    "number": 3,
+    "suit": "pentacles"
+  },
+  {
+    "title": "Power/Earthly Power",
+    "number": 4,
+    "suit": "pentacles"
+  },
+  {
+    "title": "Worry/Material Trouble",
+    "number": 5,
+    "suit": "pentacles"
+  },
+  {
+    "title": "Sucess/Material Success",
+    "number": 6,
+    "suit": "pentacles"
+  },
+  {
+    "title": "Failure/Success Unfulfilled",
+    "number": 7,
+    "suit": "pentacles"
+  },
+  {
+    "title": "Prudence",
+    "number": 8,
+    "suit": "pentacles"
+  },
+  {
+    "title": "Gain/Material Gain",
+    "number": 9,
+    "suit": "pentacles"
+  },
+  {
+    "title": "Wealth",
+    "number": 10,
+    "suit": "pentacles"
+  },
+  {
+    "title": "Princess of the Echoing Hills",
+    "number": 11,
+    "suit": "pentacles"
+  },
+  {
+    "title": "Prince of the Chariot of Earth",
+    "number": 12,
+    "suit": "pentacles"
+  },
+  {
+    "title": "Queen of the Thrones of Earth",
+    "number": 13,
+    "suit": "pentacles"
+  },
+  {
+    "title": "Lord of the Wide and Fertile Land",
+    "number": 14,
+    "suit": "pentacles"
+  }
+]  

@@ -2,15 +2,14 @@
  ** Example: Displays a Tarot Card with textures
  ***/
 
-
-import ThreeJSWrapper from 'three-js-wrapper';
+import ThreeJSWrapper from "three-js-wrapper";
 import TarotCard from "./entities/TarotCard.js";
 import AmbientAndSpotLight from "./entities/AmbientAndSpotLight.js";
 import CardData from "./data/cards.json";
 
 //random card
-let cardNumber = Math.floor(Math.random() * 22);
-let card = CardData['trump'][cardNumber];
+let cardNumber = Math.floor(Math.random() * 78);
+let card = CardData[cardNumber];
 
 //card title
 let cardTitle = document.getElementById("card-title");
@@ -19,10 +18,14 @@ cardTitle.innerHTML = card.title;
 let canvas = document.getElementById("canvas");
 let wrapper = new ThreeJSWrapper(canvas);
 
-let lights = new AmbientAndSpotLight({spot: 3});
+let lights = new AmbientAndSpotLight({ spot: 3 });
 wrapper.addEntity(lights);
 
-let tarotCard = new TarotCard({z : -2, number: card.number});
+let tarotCard = new TarotCard({ 
+    z: -2, 
+    suit: card.suit, 
+    number: card.number 
+});
 wrapper.addEntity(tarotCard);
 
 //better lights
