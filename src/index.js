@@ -8,10 +8,12 @@ import TextCanvas from "./entities/TextCanvas.js";
 import AmbientAndSpotLight from "./entities/AmbientAndSpotLight.js";
 import CardData from "./data/cards.json";
 
+let canvas = document.getElementById("canvas");
+let wrapper = new ThreeJSWrapper(canvas);
+
 //random card
 let cardNumber = Math.floor(Math.random() * 78);
 let card = CardData[cardNumber];
-
 
 let lights = new AmbientAndSpotLight({ spot: 3 });
 let tarotCard = new TarotCard({ 
@@ -20,9 +22,6 @@ let tarotCard = new TarotCard({
     number: card.number 
 });
 let cardTitle = new TextCanvas({z:-3,y:.50,text:card.title,color:"white",size:"36"});
-
-let canvas = document.getElementById("canvas");
-let wrapper = new ThreeJSWrapper(canvas);
 
 wrapper.addEntity(lights);
 wrapper.addEntity(tarotCard);
@@ -35,7 +34,43 @@ wrapper.renderer.physicallyCorrectLights = true;
 wrapper.renderer.setClearColor("#121212");
 
 //position controls
-wrapper.controls.target.set(0, 0, -2);
+wrapper.controls.target.set(0, 0, -3);
 
 //load model
 wrapper.start();
+
+//add event listener for pointer
+window.addEventListener('mousemove', onMouseMove, false);
+//window.addEventListener('click', onMouseClick, false);
+
+var raycaster = new ThreeJSWrapper.THREE.Raycaster();
+var mouse = new ThreeJSWrapper.THREE.Vector2();
+
+function updateMouseVector(event) {
+  mouse.x = (event.clientX / window.innerWidth) * 2 - 1;
+  mouse.y = - (event.clientY / window.innerHeight) * 2 + 1;
+}
+
+function raycast(object3d) {
+  raycaster.setFromCamera(mouse, wrapper.camera);
+  intersects = raycaster.intersectObject(object3d);
+  if ( intersects.length > 0) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+function onMouseMove(event) {
+  updateMouseVector(event);
+  if (raycast(tarotCard.object3d)) {
+    tarotCard.object3d.material[2].color.set(0xffffff);
+    tarotCard.object3d.material[3].color.set(0xffffff);
+  } else {
+    tarotCard.object3d.material[2].color.set(0xb0b0b0);
+    tarotCard.object3d.material[3].color.set(0xb0b0b0);
+  }
+}
+
+
+

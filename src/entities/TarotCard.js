@@ -50,7 +50,7 @@ export default class TarotCard extends ThreeJSEntity {
   }
 
   update(event) {
-    event.target.rotation.z += 0.01;
+    //event.target.rotation.z += 0.01;
     //event.target.rotation.x += 0.01;
   }
 }
